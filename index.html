@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="C:/Users/WRJ/Desktop/all/libs/jquery.mobile-1.4.5.min.css">
+<script src="C:/Users/WRJ/Desktop/all/libs/jquery.min.js"></script>
+<script src="C:/Users/WRJ/Desktop/all/libs/jquery.mobile-1.4.5.min.js"></script>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<style>
+.ui-block-a, 
+.ui-block-b, 
+.ui-block-c
+{
+background-color: lightgray;
+border: 1px solid black;
+height: 100px;
+font-weight: bold;
+text-align: center;
+padding: 60px;
+}
+</style>
+</head>
+<body>
+
+<div  data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>校园信息发布平台</h1>
+  </div>
+
+  <div data-role="content">
+    <br>
+ <div  class="ui-grid-b">
+  <a  href="#pagetwo" >今日公告</a><br><br><br>
+    <a href="#pageth" >学生登录</a><br><br><br>
+    <a href="#pagefour" data-transition="slide">新闻查询</a><br><br><br>
+    <a href="#pagefive" data-transition="slide">小组信息</a><br><br><br><br><br><br><br><br><br><br>
+   
+   </div>
+
+    
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>校园信息发布平台</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" class="ui-btn-active ui-state-persist" data-icon="home">首页</a></li>
+  </div>
+</div>
+  <div data-role="content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#page1" data-icon="plus">一、政治</a></li>
+        <li><a href="#page2" data-icon="minus">二、经济</a></li>
+        <li><a href="#page3" data-icon="delete">三、文化</a></li>
+        <li><a href="#page4" data-icon="check">四、人物</a></li>
+        <li><a href="#page5" data-icon="info">五、娱乐</a></li>
+        <li><a href="#page6" data-icon="forward">六、IT信息</a></li>
+        <li><a href="#page7" data-icon="back">七、校园热点</a></li>
+        <li><a href="#page8" data-icon="star">八、星级宿舍</a></li>
+        <li><a href="#page9" data-icon="gear">九、社团活动</a></li>
+        <li><a href="#page10" data-icon="search">十、就业信息</a></li>
+      </ul>
+    </div>
+    <p>*.*</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+ </div>
+
+
+  <div data-role="page" id="pageth">
+  <div data-role="header">
+    <h1>校园信息发布平台</h1>
+     <div data-role="navbar">
+
+      <ul>
+        <li><a href="#pageone" class="ui-btn-active ui-state-persist" data-icon="home">首页</a></li>
+
+    
+  </div>
+  <form method="post" action="demoform.asp">
+      <label for="fname">姓名 ：</label>
+      <input type="text" name="fname" id="fname" data-role="none">
+      <label for="fname">电话 ：</label>
+      <input type="text" name="fname" id="fname" data-role="none">
+      <label for="fname">地址 ：</label>
+      <input type="text" name="fname" id="fname" data-role="none">
+      <input type="submit" data-inline="true" value="提交">
+    </form>
+</div>
+
+  </div>
+  </div>
+
+  <div data-role="content">
+    <p>Goodbye!</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+ </div>
+
+ <div data-role="page" id="pagefour">
+  <div data-role="header">
+    <h1>校园信息发布平台</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" class="ui-btn-active ui-state-persist" data-icon="home">首页</a></li>
+  </div>
+   <h2>新闻查询</h2>
+  <ul data-role="listview" data-autodividers="true" data-inset="true" data-filter="true" data-filter-placeholder="搜索新闻 ...">
+    <li><a href="#page11">一、政治</a></li>
+    <li><a href="#page11">二、经济</a></li>
+    <li><a href="#page11">三、文化</a></li>
+    <li><a href="#page11">四、人物</a></li>
+    <li><a href="#page11">五、娱乐</a></li>
+    <li><a href="#page11">六、IT信息</a></li>
+    <li><a href="#page11">七、校园热点</a></li>
+    <li><a href="#page11">八、星级宿舍</a></li>
+    <li><a href="#page11">九、社团后动</a></li>
+    <li><a href="#page11">十、就业信息</a></li>
+    
+  </ul>
+  </div>
+
+  <div data-role="content">
+    <p></p>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div>
+
+  <div data-role="page" id="pagefive">
+  <div data-role="header">
+    <h1>校园信息发布平台</h1>
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" class="ui-btn-active ui-state-persist" data-icon="home">首页</a></li>
+
+
+  </div>
+
+
+
+  </div>
+
+  <div data-role="content">
+ <div align="center" class="ui-grid-b">
+  
+   
+     <div  align="center"class="ui-block-a" style="border: 1px solid black;"><span>[小组人员] </span></div>
+     <div align="center" class="ui-block-b" style="border: 1px solid black;"><span>
+武瑞江、邵东泊、崔玮琦、周敏智、李聪</span></div>
+  </div>
+   </div>
+    <p></p>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">回到首页</a>
+
+     
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>政治</h1>
+  </div>
+
+  <div data-role="content">
+    <p>
+中共中央政治局常务委员会召开会议
+
+听取“东方之星”号客轮翻沉事件救援和应急处置工作情况汇报
+
+就做好下一步工作作出部署
+
+中共中央总书记习近平主持会议并发表重要讲话
+
+　　新华网北京6月4日电  6月4日上午，中共中央政治局常务委员会召开会议，听取了国务院事件救援和处置工作组关于“东方之星”号客轮翻沉事件救援和应急处置工作情况的汇报，就做好下一步工作作出部署。中共中央总书记习近平主持会议并发表重要讲话。
+
+　　会议认为，“东方之星”号客轮翻沉事件发生后，党中央高度重视，迅速对救援和应急处置工作提出明确要求，领导和组织有关方面迅速行动、开展救援。在党中央坚强领导下，在国务院工作组直接指挥下，湖北、湖南、重庆等地党委和政府、中央有关部门统一行动，人民解放军、武警部队及海事部门迅速调集力量、全力投入救援，发挥了主力军、突击队作用。人员搜救、伤员救治、善后处理以及原因调查等工作正在有力有序进行。在这次事件应急处置工作中，有关方面反应及时，救援有序，措施得力。
+
+
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>经济</h1>
+  </div>
+
+  <div data-role="content">
+    <p>大学生炒股，该鼓励还是抵制？
+  随着A股市场的持续火爆，已经吸引了不少阶层的群体参与到炒股大军之中。其中，有一类群体的大举进场，让市场感到了疑惑，那就是大学生群体。
+  据媒体调查显示，在股市行情持续升温的大环境下，不少大学生也纷纷开立证券账户，试图在牛市中分到一杯羹。据统计，在参与调查的人员中，有31%的大学生在炒股，其中26%的炒股学生投入了5万元以上。
+  尚且不论数据的真实程度，但是对于时下股市火爆的情景，也难免让不少人感到心动。
+  就以笔者身边的例子为例，在股市屡创新高的大背景下，不少“休眠户”也开始逐步改变了原来“坚决不入市”的态度，而学生群体参与股市的比例也在逐步提升。但整体上看，投资者仍然比较理性，尚未出现大规模非理性的投资行为。
+  大学生接触股票市场，到底该鼓励还是抵制呢？对此，社会各界产生了不少的看法。
+  正所谓“公说公有理婆说婆有理”，笔者认为，大学生接触股票市场还是值得倡导的，但进入股市需保持理智，若采取过分激进的举措，却不值得提倡。
+  事实上，对于不少股民，尤其是对老股民而言，虽然在股市中并未有太大的投资回报率，但是却在其多年来的股市历练中，收获了不少的知识。此外，对于部分的资深投资者来说，股市给予他们的，不仅仅是财富上的增值，而且还让他们更加深刻、及时地掌握最新的财经政治资讯，从而提升了他们的新闻及政策嗅觉。
+  显然，这都是当代大学生急需培养的能力。对此，借助牛市的契机，让更多的大学生接触到股票市场，提升他们的实践能力，强化他们对国家政策、新闻的解读水平，或许能够让他们成长得更快，更能适应当代社会的发展。
+  不过，在股市行情持续疯狂的大环境下，股市的上涨节奏已经在不停地加快。此时，也让不少理性的投资者逐渐变成了不理性。至此，在疯牛行情之下，或许会给大学生们带来另类的感受。
+  其中，鉴于此轮牛市行情，几乎是扭曲了传统的价值投资观念，而投机盛行，垃圾股飞天等现象，却让市场的恶炒行为达到了极致。
+  与此同时，伴随着市场高杠杆工具的全面激活，也给股市的上涨加快了节奏。但同时，也给未来的市场带来了很大的隐忧。
+  或许，在此环境下，会引发部分大学生产生了投机的心态。甚至，还会尝试扩大资金的杠杆率，以此来搏取利润的最大化。
+  然而，在实际操作中，无论是牛市还是熊市，都未能摆脱“七亏二平一盈”的股市定律。因此，如果大学生们的投机胆量得以加大，或许会强化了他们的赌徒心态。
+退一步来说，一旦他们沉迷上了高杠杆的工具，而进行盲目扩大资金杠杆率的操作。如遇到了股市的拐点，则后果也将会是不堪设想的。
+呼吁理性投资，说得很容易，但实际操作起来却并不简单。时下，并非投资者不想理性投资，而是股市倒逼着投资者进行非理性的操作。
+试想一下，如果按照普通老百姓的平均薪酬水平，要耗费多少年才能够在一二线城市中买到一套合理的房子。相反，在股市中，即使风险很大，但有时候放胆一搏，或许还能够创造出财富增值的可能，实现本已不可能完成的任务。或许，这就是多数股民放胆一搏的真实想法。</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+ <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page3">
+  <div data-role="header">
+ <h1>文化</h1>
+  </div>
+
+  <div data-role="content">
+    <p>“素萍服务组”的第二代传承人、全国铁路系统的劳动模范曹艳。
+    中工网讯（记者 王莹）6月3日，全国劳模、北京铁路局北京站客运车间客运员李素萍做客中工网访谈节目《中工会客厅》，与广大网友面对面畅谈三十年来在北京站工作的点点滴滴。
+    “师傅，您真了不起。”当得知李素萍获得2015年全国劳模时，徒弟们竖起大拇指。李素萍由衷地为自己这份平凡的工作感到自豪和骄傲，“今年五一看到近三千名劳模从人民大会堂走出来，这种壮观场面我从没见过，没想到我平凡的工作能获得这么高的国家荣誉。”
+    李素萍所说的“平凡的工作”就是每天为老弱病残、行动不便的旅客提供尽可能的帮助，她一个人一天就能送20多个这样的“重点旅客”。
+    每天不变的是面对旅客的问路，遇到的都是老弱病残的群体，不会有烦躁、厌倦的时候吗？
+    “没有。”为重点旅客服务了二十多年的李素萍坚定地说。“好好跟旅客说话、好好帮助他们也是一天，不好好说话、对有困难旅客熟视无睹也是一天，干嘛不好好说话呢？我穿着这身铁路制服，如果不主动点，我心里会过意不去。”作为北京站普通的一员，李素萍质朴地为旅客服务的精神得到了旅客反馈。
+    2011年10月，北京站的重点旅客服务室正式以她的名字命名，成立“素萍服务室”，同时成立了“素萍服务组”。有一次，李素萍在服务室值班，突然有人敲门：“我找李素萍，她在吗？”李素萍看见来的人自己并不认识，经打听才知道，这位旅客通过医院病友才知道李素萍名字的。而这位医院病友曾是李素萍在北京站帮助过的“重点旅客”。
+    “你为旅客好好服务，他的态度会不一样，你因为帮助了旅客，自己的的工作也越来越有满足感，我们北京站一站台特别漂亮，当我推着旅客走在一站台的时候，回头一望，景象特别壮观。那一刻我觉得我自己特别伟大，能为别人解决困难的工作都是伟大的！”正是抱着这种“共赢”心态，4年下来“素萍服务组”里新加入了很多80、90后新鲜血液，“成立素萍服务室后，我又有了新梦想，我想在我退休之前，让大家都知道北京站有个为重点旅客服务的地方。同时，要赶紧把曹艳这样的年轻人来接班，更好地为旅客服务。”
+    曹燕是“素萍服务组”的第二代传承人、全国铁路系统的劳动模范，跟着李素萍，曹燕又学到了“特别”的服务技巧，用“火眼金睛”主动发现那些没开口但确实需要帮助的旅客。她曾经主动用肩膀背起残疾率客送到铺位上，这节约了率客半个小时上火车的时间，旅客感激地泪水让曹艳在平凡的岗位中感受到快乐和满足。
+    北京站工会主席谢景屹在做客《中工会客厅》时表示，通过树立李素萍劳模品牌，激发职工心底至真至善的服务情怀，向全社会传递北京站的“正能量”。谈到日后的工会工作重点，谢景屹认为，铁路的工会工作就是要在繁重的车站工作和职工权益中找平衡点，随时掌握职工的所思所想所虑，只有职工队伍的稳定才能保障每一列列车能安全地驶出北京站，每一位旅客能享受到温馨服务。</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+<h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>人物</h1>
+  </div>
+
+  <div data-role="content">
+    <p>
+这里当然是我们组的成员啦（武瑞江、邵东泊、崔玮琦、周敏智、李聪）
+
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+<h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>娱乐</h1>
+  </div>
+
+  <div data-role="content">
+    <p>时报讯 NBA总决赛开打在即，早早回家钓鱼的科比也没闲着。昨天，久违露面的科比突然更新了自己的“微博”，并且询问中国球迷“打铁”的含义：“我玩微博也有一阵子了，我看到了一些新的网络词汇，你们能教我一些吗？打铁是什么意思？”
+　　众所周知，打铁这个词，正是中国球迷为科比“量身定做”的。本赛季常规赛，科比在和灰熊的比赛中，完成了历史性的一刻。科比生涯投丢球数量超越了哈弗里切克(13417球)，正式荣膺NBA“打铁王”。科比意外开启“自黑”模式，中国球迷自然脑洞大开，作为回应。
+　　“打铁就是我们对你的信仰”“打铁是化学术语，此外还有一仰化叹，二仰化铁，三仰化二铁”等等，神回复不断。截至昨晚，科比的这条微博已经引来22000多条评论。
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+ <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page6">
+  <div data-role="header">
+    <h1>IT信息</h1>
+  </div>
+
+  <div data-role="content">
+    <p>Windows 10会是微软的绝地大反击？
+本周，微软官方博客宣布，Windows 10将会在7月29号于190个国家正式发布，手机版预计将于年底发布。
+
+去年末，多名IT业内人士指出微软跳过“Windows 9”的重要原因是：与十多年前发布的Windows 95和Windows 98存在兼容性问题。
+
+只是，跳过数字9也无法帮助微软脱困，绝地反击的可能性微乎其微。
+
+Wintel联盟已经崩盘
+
+Wintel曾经是一个缩写，用来描述Windows和Intel两家公司的甜蜜。一直以来，Wintel联盟一直主导着全球个人电脑市场，多次一起抵抗住了危机。
+
+Intel和Windows都奉行“向前兼容”的产品策略。至今Intel的x86处理器依然可以运行30年前的程序。而恰恰因为“向前兼容”策略却使得Intel和微软一直背着沉重的抱负。
+
+在智能手机之前，Wintel联盟一直压着ARM喘不过气。为了差异化，ARM一直标榜“low-cost，low-power，high-performance”。结果鬼知道，恰恰满足了智能手机的需求。
+
+商场上，没有永久的朋友，也没有永远的敌人。Intel的第三任CEO格罗夫在卸任时候承认最大的错误是过分依赖微软。随后，Intel开始赞助Linux。
+
+时任微软CEO的鲍尔默曾在2012年CES展会上表示：“微软将展示更适合平板电脑的触控屏界面和能耗更低的新版Windows。”这标志着Wintel联盟的破裂。
+
+如今，从Windows 8到Windows 10 Mobile，微软正开始逐渐“接受”ARM。
+
+无法想象没有盟友的微软是不是还能够独自度过难关。
+
+Google和苹果的强势夹击
+
+在手机和物联网中，微软与Google、苹果的竞争中全线溃败。
+
+Google一直以来奉行 “浏览器统治全世界”。Chrome的市场占有率正逐步提升。在中国，受益于360、搜狗等，Chrome的占有率已经接近50%。在HTML5正式版发布后，浏览器的作用越来越清晰。
+
+一般的使用者对Windows的最大依赖还是它的办公系统。而Google进一步推出的Chrome OS，只需要浏览器和互联网就可以使用Google Drive，Google Office套件以及Google Gmail等一系列服务。
+
+再来看看苹果。负责iPhone软件的Greg Christie离职后，在Jony Ive的推动下，Mac与iOS 8进行了更加无缝的连接，在下周的WWDC 2015上，Mac与iOS还会有更深度的整合。
+
+在个人电脑和手机上没有胜算。在物联网领域，微软也同样没有优势可言。ARM试图做闭环，闷头做起物联网的操作系统Mbed。微软根本没有合作机会。
+
+面对Android + Chrome以及iOS + Mac的全面包围，微软几乎没有反击的资本。</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="page7">
+  <div data-role="header">
+    <h1>校园热点</h1>
+  </div>
+
+  <div data-role="content">
+    <p>我校在智能材料及器件研究方面取得突破  
+
+我校材料科学与工程学院刘洋老师及其合作者持续在智能材料及器件领域开展研究，提出了光控局部密度驱动概念，成功制备了远程实时可控的“游泳”水凝胶，并通过设计和组合材料形状、配比、以及激光照射部位，实现了多种动作，如：滚动、翻转、“双足行走”等。该项成果有望用做智能执行器、驱动器元件。光控局部密度驱动概念的提出为智能新材料和器件的设计及制备开辟了一条新思路，将推动该领域研究的进一步发展。
+
+该项论文近日发表于国际期刊Advanced Science（2015，DOI: 10.1002/advs.201500084)。该工作最近被Wiley旗下的MaterialsViewsChina网站选为亮点论文。
+
+相关报道链接：http://www.materialsviewschina.com/2015/06/biomimetic-swimming-walking-the-hydrogel-materials-originating-in-optically-controlled-local-density-driven-concept/）。
+
+论文链接：http://onlinelibrary.wiley.com/doi/10.1002/advs.201500084/abstract
+
+                                                      (材料科学与工程学院)
+
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page8">
+  <div data-role="header">
+    <h1>星级宿舍</h1>
+  </div>
+
+  <div data-role="content">
+    <p>我校今日起校园室内和体育场所全面禁烟6月1日，是《北京市控制吸烟条例》实施的第一天，上午九点学校控烟领导小组成员对学校禁烟区域进行了集中督查。记者跟随督察组检查时发现，学校的教室、图书馆、食堂、公寓、实验室、体育场等场所按照条例规定张贴了最新的禁烟标识，全面实施了禁烟，一些公共场所和室内吸烟区摆放的烟缸、烟具已悄然消失，校内没有发现明显违反禁烟条例的行为。
+
+ 
+
+ 
+
+ 据悉，在实施“史上最严控烟令”的《北京市控制吸烟条例》前夕，学校专门研究了校园落实控烟条例的相关工作，清源、康庄、燕山三个校区校园内所有室内场所和体育场禁止吸烟，校园室外场所设立吸烟区控制吸烟。从6月1日起，将安排由校领导和处级干部组成的专项巡查组每天分时段对校园控烟工作进行巡查；成立由学生志愿者、离退休教师志愿者和安保人员、后勤职工组成的校园志愿控烟巡查员对校园进行即时巡查。同时通过广播、宣传材料、宣传栏、专题教育活动等对《北京市控制吸烟条例》进行广泛宣传，相关部门还将根据《条例》要求修订学校相关管理规定，更好推进校园控烟工作。
+
+ 
+
+ 
+
+ 控烟工作领导小组倡议，全校广大师生要树立健康生活方式，全面落实校园禁烟督察的各项措施，以每一个师生的行动来维护校园的清洁和美丽。
+
+                                                                                               新闻中心 
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+ <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page9">
+  <div data-role="header">
+    <h1>社团活动</h1>
+  </div>
+
+  <div data-role="content">
+    <p>
+校园歌手大赛 
+校园歌手大赛，由团委主办，校学生会承办。每年一次的歌声大赛为同学们提供了一个表演的舞台，让喜欢K歌的同学尽情高歌，尽情欢畅，释放激情，展现自我,丰富了同学们的课余生活，活跃了校园气氛。
+ 
+
+</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+ <h1>9组</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page10">
+  <div data-role="header">
+    <h1>就业信息</h1>
+  </div>
+
+  <div data-role="content">
+    <p>举办2015届毕业生第四场校园招聘会的通知 
+发布人：   发文时间：2015-03-23  浏览次数：209 
+ 
+
+我校决定于3月26日上午9：30在清源校区体育馆举办2015届第四场校园招聘会,请各相关部门、各教学院系积极参与，齐抓共管，确保校园招聘会顺利举行。请2015届全体毕业生认真准备，踊跃参加，届时携带好学生证或校园一卡通、个人简历及成绩单、各类证书复印件等资料有序入场。
+
+参会用人单位信息请及时关注就业服务网（http://job.bipt.edu.cn）有关公告。
+
+特此通知。 
+ 
+。</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+<h1>9组</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="page11">
+  <div data-role="header">
+    <h1>您好！</h1>
+  </div>
+
+  <div data-role="content">
+    <p>你好，这里是您要查询的信息！</p>
+    <a href="#pageone">回到首页</a>
+  </div>
+
+  <div data-role="footer">
+<h1>9组</h1>
+  </div>
+</div> 
+</body>
+</html>
